@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9f2d1c45e3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <i class="fa-solid fa-bars" onclick="closemenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p style="font-size:10px">WEB Developer in view</p>
+                <h1>Hi, I'm <span>Joshua<br></span>Osagie From Nigeria </h1>
+            </div>
+        </div>
+    </div>
+    <!-----------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about - col- 1"></div>
+                <img src="joshua.png" alt="">
+            </div>
+            <div class="about-col- 2"></div>
+            <h1 class="sub-title">About Me</h1>
+            <p>Miss joshua osagie was born in early 2000's. He is a footballer, rapper and comedian. the young
+                spitta is not ready to stop chasing the bag. i value charity , empathy and integrity above all
+                else. these ideals guide my approach to problem solving in life in general.</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="openttab('skills')">skills</p>
+                <p class="tab-links active-link" onclick="openttab('Experience')">Experience </p>
+                <p class="tab-links active-link" onclick="openttab('Education')">Education </p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>WEB</span>Developer in view</li>
+                    <li><span>LLB</span>In View</li>
+                    <li><span>artiste</span>comedian </li>
+                </ul>
+            </div>
+        </div class="tab-contents" id="Experience">
+        <ul>
+
+            <li><span>2022-current</span><br>WEB Developer in view at EDO Innovative Hub</li>
+            <li><span>2019-Current</span><br>LLB in View at Unniversity of BENIN In View</li>
+            <li><span>2017-Current</span><br>comedian</li>
+        </ul>
+    </div>
+    </div class="tab-contents" id="Education">
+    <ul>
+        <li><span>2022</span><br>WEB Developer in view at EDO Innovative Hub</li>
+        <li><span>2019</span><br>LLB in View at Unniversity of BENIN In View</li>
+        <li><span>2017</span><br>unsigned artiste and comedian</li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- ---------services ------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+
+                    <i class="fa-solid fa-code"></i>
+                    <h2>smartphone desiging</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsa incidunt accusamus, perferendis
+                        alias voluptatibus facilis, accusantium possimus dignissimos soluta provident, labore quibusdam
+                        nemo
+                        tempore a repudiandae voluptates amet sapiente!</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+            <i class="fa-solid fa-video"></i>
+            <h2>acting</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsa incidunt accusamus, perferendis alias
+                voluptatibus facilis, accusantium possimus dignissimos soluta provident, labore quibusdam nemo
+                tempore a repudiandae voluptates amet sapiente!</p>
+            <a href="#">learn more</a>
+        </div>
+    </div>
+    <i class="fa-solid fa-headphones"></i>
+    <h2>rapping</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. perferendis provident, labore quibusdam nemo
+        tempore a repudiandae voluptates amet sapiente!</p>
+    <a href="#">learn more</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!---------portfolio---------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="mobile.png">
+                    <div class="layer">
+                        <h3>Social media app</h3>
+                        <p>The app connects you to the talented around the world. Download it from play store.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i> </a>
+                    </div>
+                    <div class="work">
+                        <img src="law.png">
+                        <div class="layer">
+                            <h3>Music app</h3>
+                            <p>the app connect you to talented people in the world.
+                                download it from playstore</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="ACT.png">
+                        <div class="layer">
+                            <h3>Online shopping app</h3>
+                            <p>the app connect you to talented people in the world.
+                                download it from playstore</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!---------contact---------->
+    <div id="contact">
+        <div id="container">
+            <div id="row">
+                <div id="contact -left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane-top"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0807564312</p>
+                    <div id="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkeden"></i></a>
+                    </div>
+                    <a href="#" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right"></div>
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright(c) made by josh d sticker guy</p>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-links");
+
+        function openttab(tabname) {
+            for (tablinks of tablinks)
+                tablinks.classlist.remove("active-link");
+        }
+        function openttab(tabname) {
+            for (tablinks of tablinks)
+                tablinks.classlist.remove("active-tab");
+        }
+        event.currentTarget.classlist.add("active-list")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+
+
+    <script>
+
+        var sidemenu = document.getElementById("")
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200";
+        }
+    </script>
+</body>
+
+</html>
